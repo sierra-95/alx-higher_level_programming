@@ -1,3 +1,6 @@
-#!/usr/bin/python3
-def copy_list(1):
-  return(1[:])
+#!/usr/bin/env python3
+def copy_list(l):
+        new = []
+        for i in l:
+            new.append(i)
+        return new 
